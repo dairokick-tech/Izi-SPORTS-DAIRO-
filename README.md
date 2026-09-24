@@ -1,10 +1,22 @@
-# SPORTS DAIRO — versión corregida
+# SPORTS DAIRO
 
-- Tienda pública: index.html
-- Administrador separado: admin.html
-- Panel: Dashboard, Punto de Venta, Productos, Ventas, Pedidos, Inventario, Compras, Clientes, Reportes y Configuración.
-- Logo y QR incluidos en assets/.
-- Yape: José Carlos Vasquez More — 928469185.
-- WhatsApp: 928469185.
-- Conserva localStorage con clave sports_dairo_final_v2.
-- GitHub Pages, sin backend.
+Proyecto listo para GitHub Pages.
+
+## Archivos
+- index.html — tienda pública
+- admin.html — panel administrativo
+- app.js — funciones de tienda, carrito, pedidos y administración
+- styles.css — diseño
+- assets/logo-sports-dairo.png — logo SPORTS DAIRO
+- assets/qr-yape.png — QR de pago Yape
+
+## Acceso administrador
+Usuario: admin
+Contraseña: admin123
+
+## Pago Yape
+Titular: José Carlos Vasquez More
+Número: 928 469 185
+
+## Publicación
+Sube todos los archivos y la carpeta `assets` al repositorio de GitHub Pages. No cambies los nombres de los archivos.
