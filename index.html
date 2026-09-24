@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPORTS DAIRO</title>
+<link rel="stylesheet" href="styles.css?v=20260924">
+</head>
+<body>
+<div class="topbar">🚚 Envíos a todo el Perú · <b>🚛 Envíos por Shalom</b> · 🔒 Compra segura · 📞 928 469 185 · <a class="top-track" href="https://www.shalom.com.pe/rastrea" target="_blank" rel="noopener">📦 Rastrear en Shalom</a></div>
+<header class="store-head">
+  <a class="brand" href="#" onclick="App.shop();return false" aria-label="SPORTS DAIRO">
+    <img src="assets/logo-sports-dairo.png?v=20260924" alt="SPORTS DAIRO" onerror="this.style.display='none'">
+    <span><b>SPORTS DAIRO</b><small>TU PASIÓN, NUESTRO DEPORTE</small></span>
+  </a>
+  <div class="search"><input id="search" placeholder="¿Qué estás buscando?"><span>⌕</span></div>
+  <button class="cart-btn" onclick="App.cart()">🛒 <span>Carrito</span><i id="cartCount">0</i><small id="cartTotal">S/ 0.00</small></button>
+  <a class="btn" href="https://wa.me/51928469185" target="_blank" rel="noopener">💬 WhatsApp</a>
+</header>
+<nav class="nav">
+  <button onclick="App.shop()">Inicio</button>
+  <button onclick="App.shop('Calzado')">Zapatillas</button>
+  <button onclick="App.shop('Ropa')">Ropa</button>
+  <button onclick="App.shop('Tecnología')">Tecnología</button>
+  <button onclick="App.shop('Artefactos')">Artefactos</button>
+  <button onclick="App.shop('Accesorios')">Accesorios</button>
+  <button class="track-nav" onclick="App.trackOrder()">📦 Rastrear pedido</button>
+  <a class="track-link" href="https://www.shalom.com.pe/rastrea" target="_blank" rel="noopener">🚛 Shalom</a>
+</nav>
+<main id="view"></main>
+<footer>
+  <img src="assets/logo-sports-dairo.png?v=20260924" alt="SPORTS DAIRO">
+  <div><b>SPORTS DAIRO</b><p>RUC 10757165530<br>Dairo.kick@gmail.com<br>928 469 185<br>Ica, Chincha Alta</p></div>
+  <div><b>Información</b><p>Sobre nosotros<br>Productos<br>Pedidos<br>Métodos de pago</p><button class="btn" onclick="App.trackOrder()">📦 Rastrear pedido</button></div>
+  <div><b>Envíos</b><p>🚛 Envíos por Shalom</p><a class="btn" href="https://www.shalom.com.pe/rastrea" target="_blank" rel="noopener">Rastrear en Shalom</a></div>
+</footer>
+<div id="modal" class="modal" onclick="if(event.target.id==='modal')App.closeModal()"><div id="modalBox" class="modal-box"></div></div>
+<script src="app.js?v=20260924"></script>
+</body>
+</html>
